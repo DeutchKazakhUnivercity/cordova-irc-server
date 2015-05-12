@@ -25,9 +25,9 @@ io.configure(function () {
     io.set('transports', ['websocket']);
 });
 
-io.configure(function () {
-    io.set('match origin protocol', true);
-});
+//io.configure(function () {
+//    io.set('match origin protocol', true);
+//});
 
 io.on('connection', function (socket) {
     var addedUser = false;
