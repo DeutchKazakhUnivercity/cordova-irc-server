@@ -8,7 +8,7 @@ var port = process.env.PORT || 3000;
 try {
 
     server.listen(port, function () {
-        console.log('Server listening at port %d', port);
+        console.log('Server listening at port %s', port);
     });
 
     // Routing
