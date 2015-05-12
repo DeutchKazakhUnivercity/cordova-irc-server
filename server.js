@@ -21,9 +21,9 @@ var numUsers = 0;
 /**
  * Restrict to only WebSockets protocol
  */
-io.configure(function () {
-    io.set('transports', ['websocket']);
-});
+//io.configure(function () {
+//    io.set('transports', ['websocket']);
+//});
 
 //io.configure(function () {
 //    io.set('match origin protocol', true);
@@ -31,7 +31,7 @@ io.configure(function () {
 
 io.on('connection', function (socket) {
     var addedUser = false;
-    
+
     // when the client emits 'new message', this listens and executes
     socket.on('new message', function (data) {
         // we tell the client to execute 'new message'
