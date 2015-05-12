@@ -20,7 +20,6 @@
     <Compile Include="history.js" />
     <Content Include="Web.config" />
     <None Include="dku-irc-server.pubxml" />
-    <Content Include="index.html" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Compile Include="server.js" />
